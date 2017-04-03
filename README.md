@@ -16,6 +16,10 @@
 
 `tns run android`
 
+## Roadmap
+- Add example how to use with slide/carousel content. Maybe using this great plugin https://github.com/manijak/nativescript-carousel
+- Create example methods on how to open tabs without tap, like from content
+
 ## In action
 
 iOS
