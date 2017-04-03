@@ -16,10 +16,10 @@
 
 ## In action
 
-### iOS
+iOS
 
-[![](https://img.youtube.com/vi/J5CflfiupbA/0.jpg)](https://www.youtube.com/watch?v=J5CflfiupbA)
+![alt text](docs/ios.gif "iOS")
 
-### Android
+Android
 
-[![](https://img.youtube.com/vi/zb_SCxQOB8w/0.jpg)](https://www.youtube.com/watch?v=zb_SCxQOB8w)
+![alt text](docs/android.gif "Android")
