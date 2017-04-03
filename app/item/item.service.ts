@@ -5,17 +5,17 @@ import { Item } from "./item";
 @Injectable()
 export class ItemService {
     private items = new Array<Item>(
-        { id: 0, text: "Overview" },
-        { id: 1, text: "About" },
-        { id: 2, text: "Events" },
-        { id: 3, text: "Biography" },
-        { id: 4, text: "Tours" },
-        { id: 5, text: "Reviews" },
-        { id: 6, text: "Shop" },
-        { id: 7, text: "Support" },
-        { id: 7, text: "Contact" },
-        { id: 7, text: "See on map" },
-        { id: 7, text: "Just another" },
+        { id: 0, text: "Overview", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 1, text: "About", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 2, text: "Events", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 3, text: "Biography", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 4, text: "Tours", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 5, text: "Reviews", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 6, text: "Shop", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 7, text: "Support", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 8, text: "Contact", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 9, text: "See on map", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
+        { id: 10, text: "Just another", body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod accusamus incidunt, voluptates officiis alias odio quia, a, voluptas repellat eveniet cupiditate asperiores. Sint incidunt mollitia corporis, voluptate cum ipsam dolorum?" },
     );
 
     getItems(): Item[] {

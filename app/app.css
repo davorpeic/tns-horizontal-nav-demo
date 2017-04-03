@@ -12,12 +12,11 @@ refer to http://docs.nativescript.org/ui/theme.
 @import 'nativescript-theme-core/css/core.light.css';
 
 .scroll-menu-container {
-    background-color: #32446d;
+    background-color: #32446d;    
 }
 
 .menu-normal {
 
-    /*text-transform: uppercase;*/
     color: rgba(255,255,255,0.7);
     padding: 7 8;
     font-size: 14;
@@ -28,7 +27,6 @@ refer to http://docs.nativescript.org/ui/theme.
 
 .menu-active {
 
-    /*text-transform: uppercase;*/
     color: #fff;
     padding: 6 8 7;
     font-weight: bold;    
