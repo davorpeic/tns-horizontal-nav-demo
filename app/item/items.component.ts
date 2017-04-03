@@ -83,20 +83,6 @@ export class ItemsComponent implements OnInit {
             }, 50);
 
         }
-       
 
-        //this.scrollView.scrollToHorizontalOffset(100, true);
-        // let testButton = new Button();
-        // testButton.text = "Test button asdf  asdf  sdfasdfasdfasdf asdffasdf as f#";
-        
-        // let testButton2 = new Button();
-        // testButton2.text = "Test button123";
-
-        // this.hmenuLayout.addChild(testButton);
-        // this.hmenuLayout.addChild(testButton2);
-        
-        // setTimeout(function() {
-        //     console.log("button width", testButton.getActualSize().width, testButton2.getLocationOnScreen().x);
-        // }, 100)
     }
 }
