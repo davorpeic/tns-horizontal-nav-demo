@@ -11,6 +11,8 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/core.light.css';
 
+ActionBar { background-color: #32446d; color: #ffffff; }
+
 .scroll-menu-container {
     background-color: #32446d;    
 }

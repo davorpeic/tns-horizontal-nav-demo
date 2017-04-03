@@ -80,7 +80,7 @@ export class ItemsComponent implements OnInit {
                     button.className = "menu-active";                
                     this.activePage = 0;
                 }
-            }, 50);
+            }, 300);
 
         }
 

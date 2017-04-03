@@ -7,6 +7,10 @@ import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 
+import { setStatusBarColors } from "./shared/status-bar-util";
+
+setStatusBarColors();
+
 @NgModule({
     bootstrap: [
         AppComponent
